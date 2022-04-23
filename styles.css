@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoimg {
+    width: 75px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.header-left {
+    text-align: left;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    color: cadetblue;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar a {
+    padding: 0 20px;
+    color: cadetblue;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 14px 18px;
+}
+
+.nav-bar a:hover {
+    background-color: #f8f1ae;
+    color: aquamarine;
+}
+
+button {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.learn-more, .hire-me {
+    background-color: #f8f1ae;
+    color: black;
+    border-color: #f8f1ae;
+    border:#f8f1ae;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    /*background-image: url("images/yellow-umbrella.jpeg");*/
+    background-color: cadetblue;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    padding: 10vh 0;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    width: 30%;
+    margin: 0 20px;
+    justify-content: center;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 30px 0;
+}
+
+.content-right {
+    align-items: right;
+}
+
+.bodyimg {
+    max-width: 500px;
+    max-height: 450px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+h3 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.bottom-content{
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 30px 0;
+    display: flex;
+}
+
+.bottom-content p {
+    padding: 50px;
+}
+ 
